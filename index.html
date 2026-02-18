@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabook - Travel Booking Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-text">Trabook</span>
+                    <img src="images/Vector.png" alt="Logo Icon" class="logo-icon">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#destination">Destination</a></li>
+                    <li><a href="#tour">Tour</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="btn-login">Login</button>
+                    <button class="btn-signup">Sign up</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1 class="hero-title">Get started your exciting <span class="highlight">journey</span> with us.</h1>
+                    <p class="hero-description">A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</p>
+                    <button class="btn-discover">Discover Now</button>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-image-wrapper">
+                        <img src="images/hero-character.png" alt="Travel Person" class="hero-character">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Search Box -->
+            <div class="search-box">
+                <div class="search-item">
+                    <div class="search-label-wrapper">
+                        <label>Location</label>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <input type="text" class="search-input" placeholder="Where are you going">
+                </div>
+                <div class="search-item">
+                    <div class="search-label-wrapper">
+                        <label>Date</label>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <input type="text" class="search-input" placeholder="When you will go">
+                </div>
+                <div class="search-item">
+                    <div class="search-label-wrapper">
+                        <label>Guest</label>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <input type="text" class="search-input" placeholder="Number of guest">
+                </div>
+                <button class="btn-explore">Explore Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Things You Need Section -->
+    <section class="things-section" id="about">
+        <div class="container">
+            <div class="things-header">
+                <h2 class="section-title">Things you need <span class="highlight">to do</span></h2>
+                <p class="section-subtitle">We ensure that you'll embark on a perfectly planned,<br>safe vacation at a price you can afford.</p>
+                <img src="images/things you need to do aeroplane.png" alt="Airplane" class="things-decoration">
+            </div>
+            
+            <div class="things-grid">
+                <div class="thing-card">
+                    <img src="images/Sign Up.png" alt="Sign Up" class="thing-icon-img">
+                    <h3>Sign Up</h3>
+               <p>Completes all the work associated with planning and processing</p>
+                </div>
+                <div class="thing-card">
+                    <img src="images/Money.png" alt="Worth of Money" class="thing-icon-img">
+                    <h3>Worth of Money</h3>
+                    <p>After successful access then book from exclusive deals & pricing</p>
+                </div>
+                <div class="thing-card">
+                    <img src="images/Travel.png" alt="Exciting Travel" class="thing-icon-img">
+                    <h3>Exciting Travel</h3>
+                    <p>Start and explore a wide range of exciting travel experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exclusive Deals Section -->
+    <section class="deals-section" id="destination">
+        <div class="container">
+            <h2 class="section-title">Exclusive <span class="highlight">deals & discounts</span></h2>
+            <p class="section-subtitle">Discover our fantastic early booking discounts<br>& start planning your journey.</p>
+            
+            <div class="deals-grid">
+                <div class="deal-card">
+                    <div class="deal-image-wrapper">
+                        <img src="images/Deals & discounts Card-1.png" alt="Madrid" class="deal-card-img">
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="deal-image-wrapper">
+                        <img src="images/Deals & discounts Card-2.png" alt="Firenze" class="deal-card-img">
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="deal-image-wrapper">
+                        <img src="images/Deals & discounts Card-3.png" alt="Paris" class="deal-card-img">
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="deal-image-wrapper">
+                        <img src="images/Deals & discounts Card-4.png" alt="London" class="deal-card-img">
+                        <button class="btn-book-now">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <button class="pagination-btn">←</button>
+                <button class="pagination-btn">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Vacation Plan Section -->
+    <section class="vacation-section" id="tour">
+        <div class="container">
+            <div class="vacation-header">
+                <div class="vacation-title-wrapper">
+                    <h2 class="section-title">Best <span class="highlight">vacation plan</span></h2>
+                    <p class="section-subtitle">Plan your perfect vacation with our travel agency. Choose<br>among hundreds of all-inclusive offers!</p>
+                </div>
+                <img src="images/best vacation plan tree.png" alt="Tree decoration" class="vacation-decoration">
+                <div class="vacation-pagination">
+                    <button class="pagination-btn">←</button>
+                    <button class="pagination-btn">→</button>
+                </div>
+            </div>
+            
+            <div class="vacation-grid">
+                <div class="vacation-card">
+                    <img src="images/Vacation plan Card-1.png" alt="Rome, Italy" class="vacation-card-img">
+                </div>
+                
+                <div class="vacation-card">
+                    <img src="images/Vacation plan Card-2.png" alt="London, UK" class="vacation-card-img">
+                </div>
+                
+                <div class="vacation-card">
+                    <img src="images/Vacation plan Card-3.png" alt="Osaka, Japan" class="vacation-card-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <input type="checkbox" id="testimonial-toggle" class="testimonial-toggle">
+        <div class="container">
+            <div class="testimonials-wrapper">
+                <div class="testimonials-left">
+                    <h2 class="section-title">What people say <span class="highlight">about us.</span></h2>
+                    <p class="section-subtitle">Our Clients send us bunch of smilies with our services and we love them.</p>
+                    <div class="testimonial-nav">
+                        <label for="testimonial-toggle" class="testimonial-btn testimonial-prev">←</label>
+                        <label for="testimonial-toggle" class="testimonial-btn testimonial-next">→</label>
+                    </div>
+                </div>
+                <div class="testimonials-right">
+                    <div class="testimonial-wrapper testimonial-wrapper-1">
+                        <img src="images/review image.png" alt="Mike taylor" class="testimonial-avatar">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
+                            <div class="testimonial-author">
+                                <h4>Mike taylor</h4>
+                                <p>Lahore, Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-wrapper testimonial-wrapper-2">
+                        <img src="images/man.png" alt="Chris Thomas" class="testimonial-avatar">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">"Excellent service and amazing experience! The team made our vacation planning so easy and stress-free. Highly recommend to anyone looking for their next adventure."</p>
+                            <div class="testimonial-author">
+                                <h4>Chris Thomas</h4>
+                                <p>CEO of Red Button</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/What people say about us aeroplane.png" alt="Airplane decoration" class="testimonial-decoration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <h2 class="section-title">Get update with <span class="highlight">latest blog</span></h2>
+            
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="images/blog 1.png" alt="Blog 1" class="blog-card-img">
+                    <div class="blog-card-content">
+                        <h3 class="blog-card-title">The Amazing Difference a Year of Travelling.</h3>
+                        <p class="blog-card-date">July 27, 2021</p>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <img src="images/blog 2.png" alt="Blog 2" class="blog-card-img">
+                    <div class="blog-card-content">
+                        <h3 class="blog-card-title">Travel far enough, you meet yourself.</h3>
+                        <p class="blog-card-date">July 27, 2021</p>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <img src="images/blog 3.png" alt="Blog 3" class="blog-card-img">
+                    <div class="blog-card-content">
+                        <h3 class="blog-card-title">How to Save Money While Visiting Africa.</h3>
+                        <p class="blog-card-date">July 27, 2021</p>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <img src="images/blog 4.png" alt="Blog 4" class="blog-card-img">
+                    <div class="blog-card-content">
+                        <h3 class="blog-card-title">Reflections on 5 Months of Travel: Time to Hang</h3>
+                        <p class="blog-card-date">July 27, 2021</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-pagination">
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="subscribe-section">
+        <div class="container">
+            <div class="subscribe-box">
+                <img src="images/Subscribe.png" alt="Subscribe" class="subscribe-img">
+                <div class="subscribe-overlay">
+                    <div class="subscribe-form">
+                        <img src="images/Email.png" alt="Email" class="email-icon">
+                        <input type="email" placeholder="Enter your mail" class="subscribe-input">
+                        <button class="subscribe-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-text">Trabook</span>
+                        <img src="images/Vector.png" alt="Logo Icon" class="logo-icon">
+                    </div>
+                    <p>Book your trip in minute, get full Control<br>for much longer.</p>
+                    <div class="social-links">
+                        <a href="javascript:void(0)" class="social-icon"><img src="images/Social Facebook.png" alt="Facebook"></a>
+                        <a href="javascript:void(0)" class="social-icon"><img src="images/Social Instagram.png" alt="Instagram"></a>
+                        <a href="javascript:void(0)" class="social-icon"><img src="images/Social twitter.png" alt="Twitter"></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="javascript:void(0)">About</a></li>
+                        <li><a href="javascript:void(0)">Careers</a></li>
+                        <li><a href="javascript:void(0)">Logistic</a></li>
+                        <li><a href="javascript:void(0)">Privacy & Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="javascript:void(0)">Help/FAQ</a></li>
+                        <li><a href="javascript:void(0)">Press</a></li>
+                        <li><a href="javascript:void(0)">Affiliates</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>More</h4>
+                    <ul>
+                        <li><a href="javascript:void(0)">Press Centre</a></li>
+                        <li><a href="javascript:void(0)">Our Blog</a></li>
+                        <li><a href="javascript:void(0)">Low fare tips</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Copyright, Trabook 2022. All rights reserved.</p>
+                <a href="javascript:void(0)">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script>
+// Set minimum date to today to prevent selecting past dates
+document.addEventListener('DOMContentLoaded', function() {
+    const dateInput = document.getElementById('travelDate');
+    const today = new Date().toISOString().split('T')[0];
+    dateInput.setAttribute('min', today);
+});
+</script>

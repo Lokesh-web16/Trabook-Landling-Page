@@ -1,0 +1,65 @@
+TEMPORARY PLACEHOLDER GUIDE
+===========================
+
+Until you export images from Figma, you can use these placeholder images for testing:
+
+1. hero-character.png
+   - Look for: Person with straw hat, glasses, holding camera, orange luggage
+   - Location in Figma: Top hero section, right side
+   - Size: ~600x600px
+
+2. madrid.jpg
+   - Look for: Red/orange torii gates corridor (Japanese style)
+   - Location: First card in "Exclusive deals" section
+   
+3. firenze.jpg
+   - Look for: Lighthouse or tower with orange/red color
+   - Location: Second card in "Exclusive deals" section
+   
+4. paris.jpg
+   - Look for: Coastal town on cliff (Cinque Terre style)
+   - Location: Third card in "Exclusive deals" section
+   
+5. london.jpg
+   - Look for: Desert canyon with wavy patterns (Antelope Canyon)
+   - Location: Fourth card in "Exclusive deals" section
+
+6. rome.jpg
+   - Look for: Sunset beach with person silhouette
+   - Location: First card in "Best vacation plan" section
+   
+7. london-vacation.jpg
+   - Look for: Desert wave rock formation (The Wave, Arizona)
+   - Location: Second card in "Best vacation plan" section
+   
+8. osaka.jpg
+   - Look for: Modern building with palm trees and orange accents
+   - Location: Third card in "Best vacation plan" section
+
+9. blog-1.jpg
+   - Look for: Colorful European buildings
+   - Location: First blog card
+   
+10. blog-2.jpg
+    - Look for: Beach pavilion/gazebo
+    - Location: Second blog card
+    
+11. blog-3.jpg
+    - Look for: Arched corridor/hallway
+    - Location: Third blog card
+    
+12. blog-4.jpg
+    - Look for: Ancient rock architecture (Petra style)
+    - Location: Fourth blog card
+
+13. testimonial-avatar.jpg
+    - Look for: Person photo in testimonial section
+    - Location: "What people say about us" section
+    - Size: ~100x100px (will be displayed as circle)
+
+EXPORT TIPS:
+- Right-click on image in Figma
+- Select "Export" or "Copy as PNG"
+- For photos: Use JPG format (smaller file size)
+- For hero character: Use PNG format (may have transparency)
+- Recommended quality: 80-90% for JPG
