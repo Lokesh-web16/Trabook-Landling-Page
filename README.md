@@ -150,8 +150,6 @@ Trabook-Landing-Page/
 | :--- | :--- | :--- | :--- |
 | 🖥️ **Desktop** | `> 1024px` | Full multi-column layout | ✅ |
 | 💻 **Laptop** | `768px - 1024px` | Adjusted spacing and columns | ✅ |
-| 📱 **Tablet** | `480px - 768px` | Stacked cards, single column | ✅ |
-| 📱 **Mobile** | `< 480px` | Full-width elements, vertical stack | ✅ |
 
 ---
 
