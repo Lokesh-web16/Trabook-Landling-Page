@@ -199,4 +199,3 @@ Trabook-Landing-Page/
 ## 📄 License
 
 This project is open-source and available under the **MIT License**.
-**⭐ If you like this project, please give it a star on GitHub!**
