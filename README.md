@@ -2,11 +2,7 @@
 
 A fully responsive, pixel-perfect **Travel Booking Landing Page** built with pure **HTML** and **CSS**. Experience smooth animations, interactive carousels and a modern glassmorphism design that brings your travel dreams to life.
 
----
 
-## 🌐 Live Demo
-
-🔗 **[View Live Site](#)** _(Add your deployment link here)_
 
 ---
 
